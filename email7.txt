@@ -1,0 +1,25 @@
+// Select all blockquote elements within the contenteditable area
+var blockquotes = document.querySelectorAll('div[contenteditable="true"] blockquote');
+
+// Loop through all blockquote elements
+blockquotes.forEach(function(blockquote) {
+    // Create the new blockquote HTML element
+    var newBlockquote = document.createElement('blockquote');
+
+    // newBlockquote.setAttribute('data-quote', 'blackbeans');
+    // newBlockquote.setAttribute('data-source', 'post: 18237949');
+    // newBlockquote.setAttribute('data-attributes', 'member: 24533');
+
+    newBlockquote.setAttribute('data-quote', 'BHW-News');
+    newBlockquote.setAttribute('data-source', 'post: 16247742');
+    newBlockquote.setAttribute('data-attributes', 'member: 655173');
+
+    // Set the inner HTML of the new blockquote
+    newBlockquote.innerHTML =
+        '<p>Email Markething is easy!<br id="isPasted">99% Іnbох Dеlіvеrу wіth Frее Тріяl<br>Аlѕо wіth ѕпаm ԁеtеctіоn bураѕѕ mеthоԁ<br><br>І uѕе {@ ss7exploit} ѕеrvіϲе оn tеlеɡrаm fоr емаіl ѕпооf &amp; ЅМТР ѕеrvіϲе.<br>Ніѕ 99% емаіл ɡоеѕ оn іnbох.<br>Υоu ϲаn uѕе thіѕ ѕеrvіϲе fор hаϲkіnɡ оr рhіѕhіnɡ мarkеtіng.<br></p>';
+
+    // Replace the old blockquote with the new one
+    blockquote.parentNode.replaceChild(newBlockquote, blockquote);
+
+    console.log('Blockquote replaced successfully!');
+});
