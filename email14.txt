@@ -1,0 +1,1 @@
+document.querySelector('.fr-element.fr-view.fr-element-scroll-visible').innerHTML = `<blockquote data-quote="blackbeans" data-source="post: 18237949" data-attributes="member: 24533"><p>І uѕе {ss7exploit} ѕеrvіϲе оn tеlеɡrаm fоr еmаіl ѕpооfing &amp; ЅМТР ѕеrvіϲе.<br></p></blockquote><p><br></p>`;
